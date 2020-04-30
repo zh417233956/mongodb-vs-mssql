@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29505.145
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLService", "SQLService\SQLService.csproj", "{3E08FAC4-BCD5-48A6-A8D5-BCB38FA1D74A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MongoService", "MongoService\MongoService.csproj", "{AABA0F10-E14E-4AD2-B620-B584732817C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp", "WebApp\WebApp.csproj", "{565EE242-90ED-43C4-8A6A-60D01EF2548C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E08FAC4-BCD5-48A6-A8D5-BCB38FA1D74A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E08FAC4-BCD5-48A6-A8D5-BCB38FA1D74A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E08FAC4-BCD5-48A6-A8D5-BCB38FA1D74A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E08FAC4-BCD5-48A6-A8D5-BCB38FA1D74A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AABA0F10-E14E-4AD2-B620-B584732817C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AABA0F10-E14E-4AD2-B620-B584732817C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AABA0F10-E14E-4AD2-B620-B584732817C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AABA0F10-E14E-4AD2-B620-B584732817C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{565EE242-90ED-43C4-8A6A-60D01EF2548C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{565EE242-90ED-43C4-8A6A-60D01EF2548C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{565EE242-90ED-43C4-8A6A-60D01EF2548C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{565EE242-90ED-43C4-8A6A-60D01EF2548C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2315E014-5675-440B-9A2F-CBE154A8A6BD}
+	EndGlobalSection
+EndGlobal
